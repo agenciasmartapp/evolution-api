@@ -1,8 +1,17 @@
 {
   "name": "evolution-api",
   "version": "1.0.0",
+  "description": "API da Evolution Coaching por Bruno Single",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
+  },
+  "keywords": ["api", "coaching", "bruno", "personal", "fitness"],
+  "author": "Bruno Single",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
   }
 }
